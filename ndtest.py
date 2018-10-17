@@ -11,7 +11,7 @@ tokens="<tokencode>"
 now= datetime.datetime.now()
 
 # connect to smtp server
-smtpUser= "youremail1@gmail.com"
+smtpUser= "youremail@gmail.com"
 smtpPass= "yourpasswd"
 toAdd= ["recipientemail1@gmail.com", "recipientemail1@gmail.com"]
 fromAdd= "youremail@gmail.com"
