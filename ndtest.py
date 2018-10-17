@@ -28,7 +28,7 @@ print (hex(dev.idVendor)+','+hex(dev.idProduct))
 
 
 #connecting to the database
-db= MySQLdb.connect("localhost", "monitor", "password", "detector")
+db= MySQLdb.connect("localhost", "monitor", "password", "database")
 cur= db.cursor()
 
 while True:
