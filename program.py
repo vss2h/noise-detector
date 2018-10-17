@@ -17,11 +17,11 @@ def main():
 		if curr_temp <= min_temp:
 			print ("")
 		elif curr_temp > min_temp and curr_temp < max_temp:
-			smtpUser= "vanessaserao1@gmail.com"
-			smtpPass= "vamandaa007"
+			smtpUser= "youremail@gmail.com"
+			smtpPass= "yourpassword"
 
-			toAdd= ["vanessaserao1@gmail.com", "vakise@hotmail.fr"]
-			fromAdd= "vanessaserao1@gmail.com"
+			toAdd= ["recipientemail1@gmail.com","recipientemail2@gmail.com"]
+			fromAdd= "youremail@gmail.com"
 			body= MIMEText("It is beautiful outside. The temperature is " + str(curr_temp) + " on " + now.strftime('%a,%b %d,%Y %H:%M:%S %Z'))
 			
 
@@ -49,11 +49,11 @@ def main():
                         # savefile= open("weatherfile.txt", 'w')
                         # savefile.write(body)
 			 
-			 smtpUser= "vanessaserao1@gmail.com"
-                 	 smtpPass= "vamandaa007"
+			 smtpUser= "youremail@gmail.com"
+			 smtpPass= "yourpassword"
 
-                 	 fromAdd= "vanessaserao1@gmail.com"
-                	 toAdd= ["vanessaserao1@gmail.com", "vakise@hotmail.fr"]
+			 toAdd= ["recipientemail1@gmail.com","recipientemail2@gmail.com"]
+			 fromAdd= "youremail@gmail.com"
 			 body= MIMEText("WARNING !!! \n It is too hot outside. The temperature is " + str(curr_temp) + " on " + now.strftime('%a,%b %d,%Y %H:%M:%S %Z'))
 
 			 body["From:"]= fromAdd
