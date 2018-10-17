@@ -11,10 +11,10 @@ tokens="<tokencode>"
 now= datetime.datetime.now()
 
 # connect to smtp server
-smtpUser= "vanessaserao1@gmail.com"
-smtpPass= "vamandaa007"
-toAdd= ["vanessaserao1@gmail.com", "vakise@hotmail.fr"]
-fromAdd= "vanessaserao1@gmail.com"
+smtpUser= "youremail1@gmail.com"
+smtpPass= "yourpasswd"
+toAdd= ["recipientemail1@gmail.com", "recipientemail1@gmail.com"]
+fromAdd= "youremail@gmail.com"
 
 #find the device
 dev= usb.core.find(idVendor=0x16c0,idProduct=0x5dc)
