@@ -1,10 +1,10 @@
 import smtplib
 
-smtpUser= "vanessaserao1@gmail.com"
-smtpPass= "vamandaa007"
+smtpUser= "youremail@gmail.com"
+smtpPass= "yourpassword"
 
-toAdd= "vanessaserao1@gmail.com"
-fromAdd= ["vanessaserao1@gmail.com", "vakise@hotmail.fr"]
+toAdd= "youremail@gmail.com"
+fromAdd= ["recipientemail1@gmail.com", "recipientemail1@gmail.com"]
 
 subj= "This is a test"
 header= "To: " + toAdd + '\n' +'From: ' + fromAdd +'\n' + 'Subject: ' + subj
